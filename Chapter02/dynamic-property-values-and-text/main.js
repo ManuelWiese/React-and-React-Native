@@ -3,10 +3,10 @@ import { render } from 'react-dom';
 
 // These constants are passed into the JSX
 // markup using the JavaScript expression syntax.
-const enabled = false;
+const enabled = true;
 const text = 'A Button';
 const placeholder = 'input value...';
-const size = 50;
+const size = 20;
 
 // We're rendering a "<button>" and an "<input>"
 // element, both of which use the "{}" JavaScript
@@ -14,7 +14,7 @@ const size = 50;
 // values.
 render(
   <section>
-    <button disabled={!enabled}>{text}</button>
+    <button disabled={!enabled} >{text}</button>
     <input placeholder={placeholder} size={size} />
   </section>,
   document.getElementById('app')

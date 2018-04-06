@@ -1,0 +1,9 @@
+{
+  "name": "Chapter02_Pharmacy_List",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
+
